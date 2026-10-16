@@ -1,0 +1,9 @@
+pymupdf
+sentence-transformers
+langchain
+chromadb
+langchain-community
+streamlit
+python-dotenv
+uvicorn
+fastapi
