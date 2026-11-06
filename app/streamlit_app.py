@@ -219,4 +219,9 @@ if question:
 
     st.session_state.messages.append(
         {"role": "assistant", "content": answer, "sources": sources}
+    )rce']} - page {c['page']} - score {c['score']:.2f}")
+                        st.write(c["text"][:400])
+
+    st.session_state.messages.append(
+        {"role": "assistant", "content": answer, "sources": sources}
     )

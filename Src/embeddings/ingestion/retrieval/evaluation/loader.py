@@ -6,7 +6,7 @@ from pathlib import Path
 def extract_text(pdf_path: str) -> str:
     """Extract text from all pages of a PDF research paper."""
 
-    path = Path(r"c:\Users\User\OneDrive\Attachments\SBT 3101_ SURVEY OF PLANT KINGDOM (1).pdf")
+    path = Path(pdf_path)
 
     if not path.exists():
         raise FileNotFoundError(f"PDF not found: {path}")
